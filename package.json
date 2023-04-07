@@ -1,0 +1,19 @@
+{
+  "name": "pochta-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Alexey Ivashkin",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cron": "^2.3.0",
+    "dotenv": "^16.0.3",
+    "russian-post": "^1.0.10",
+    "telegraf": "^4.12.2",
+    "ts-tracking-number": "^1.0.16"
+  }
+}
